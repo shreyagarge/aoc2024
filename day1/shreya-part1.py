@@ -12,10 +12,6 @@ def main():
     print(team1mol)
     print(team2mol)
 
-    team1bun, team2bun = zip(*(i.split() for i in raw))
-    print(team1bun)
-    print(team2bun)
-
 
 if __name__ == "__main__":
     main()
