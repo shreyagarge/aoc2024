@@ -1,1 +1,1 @@
-from .task2_stephen import *
+from .shreya import is_increasing
