@@ -1,7 +1,6 @@
 def main():
     with open("input_shreya") as f:
         reports = f.read().splitlines()
-        print(reports)
 
     count, count_with_tolerance = safe_report_count(reports)
     print(count, count_with_tolerance)
