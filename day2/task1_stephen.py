@@ -12,8 +12,7 @@ def main():
 
 def is_report_safe(report):
     diffs = [a-b for a,b in itertools.pairwise(report)]
-    return all(1 <= diff <= 3 for diff in diffs) or all (1 <= -diff <= 3 for diff in diffs)
-
+    return all(1 <= diff <= 3 for diff in diffs) or all(1 <= -diff <= 3 for diff in diffs)
 
 
 if __name__ == "__main__":
